@@ -1,0 +1,39 @@
+/* mbed Microcontroller Library
+ * Copyright (c) 2019 ARM Limited
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#include "mbed.h"
+#include <cstdio>
+
+
+// Blinking rate in milliseconds
+#define BLINKING_RATE     5000ms
+
+
+DigitalOut led(D4);
+DigitalOut buzzer(D5);
+
+AnalogIn rainSensor(A0);
+
+const float rainThreshole = 0.5f;//valor medio de precisao entre 0 e 1
+
+int main()
+{
+    while(1){
+        float rainValue = rainSensor.read();
+
+        printf("Rain value: %.2f \n", rainValue );
+
+        if(rainValue > rainThreshole){
+            led =  0;
+            buzzer = 0;
+        }else{
+            led = 1;
+            buzzer = 1;
+        }
+    
+        ThisThread::sleep_for(1s);
+
+        }
+    }
