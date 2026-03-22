@@ -150,10 +150,6 @@ water-extraction-system/
 ## Authors
 
 - Edson Come — 115640
-- Francisco Rolo — 114570
-- Henrique Manuel Ferreira — 113600
-- Hugo Dias — 114142
-- Madalena Ferreira — 114253
-- Rita Soares — 114223
+
 
 **Course**: Microcontroladores e Sistemas Embarcados (TP7-3, Group 2) — University of Aveiro
