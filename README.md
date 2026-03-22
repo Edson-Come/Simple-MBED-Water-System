@@ -149,7 +149,5 @@ water-extraction-system/
 
 ## Authors
 
-- Edson Come — 115640
+- Edson Come 
 
-
-**Course**: Microcontroladores e Sistemas Embarcados (TP7-3, Group 2) — University of Aveiro
