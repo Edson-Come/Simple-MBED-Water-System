@@ -2,7 +2,7 @@
 
 An embedded system prototype for automated well water extraction, built on the STM32 Nucleo-F411RE with Mbed OS. The system uses a rain sensor to detect water presence and activates a water pump while providing LED and buzzer status feedback.
 
-Developed for the Microcontrollers and Embedded Systems course (TP7-3, Group 2) — University of Aveiro (DETI).
+Developed for the Microcontrollers and Embedded Systems course 
 
 ---
 
